@@ -3,13 +3,13 @@ export const requireAriaLabelRule = {
         type: 'problem',
         docs: {
             description: 'Ensure button has aria-label or visible text',
-            recommended: false,
         },
         messages: {
             missingAria: 'Button must have aria-label or accessible text.',
         },
         schema: [],
     },
+    defaultOptions: [],
     create(context) {
         return {
             JSXOpeningElement(node) {

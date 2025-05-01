@@ -9,6 +9,7 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
+    "prepare": "npm run build",
     "lint": "eslint ."
   },
   "keywords": [
